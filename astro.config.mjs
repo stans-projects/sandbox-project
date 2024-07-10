@@ -7,5 +7,5 @@ export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
   site: 'https://stans-projects.github.io',
-  base: '/stans-sandbox',
+  base: '/sandbox-project',
 });
