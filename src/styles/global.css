@@ -4,28 +4,28 @@
 @tailwind utilities;
 
 @layer components {
-	body  {
-		@apply font-mainFamily;
-		font-feature-settings: "palt";
-		-webkit-font-smoothing: antialiased;
+	body {
+	  @apply font-mainFamily;
+	  font-feature-settings: "palt";
+	  -webkit-font-smoothing: antialiased;
 	}
-
+  
 	a {
-		color: inherit;
-		text-decoration: underline;
-		text-decoration-skip-ink: none;
-		text-underline-position: under;
+	  color: inherit;
+	  text-decoration: underline;
+	  text-decoration-skip-ink: none;
+	  text-underline-position: under;
 	}
-
+  
 	.vpc {
-		@apply max-sm:hidden;
+	  @apply max-sm:hidden;
 	}
-
+  
 	.vsp {
-		@apply hidden max-sm:block;
+	  @apply hidden max-sm:block;
 	}
-
+  
 	.pos-center {
-		@apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+	  @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 	}
-}
+  }
